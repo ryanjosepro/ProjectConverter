@@ -1,0 +1,9 @@
+*.dproj.local
+*.identcache
+*.dcu
+*.res
+*.stat
+*.ini
+*.json
+__history/
+*/__history/
