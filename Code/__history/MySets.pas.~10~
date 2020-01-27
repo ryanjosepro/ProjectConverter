@@ -1,0 +1,10 @@
+unit MySets;
+
+interface
+
+type
+  TGitMode = (emClone, emStatus, emPull, emAdd, emCommit, emCheckout, emPush);
+
+implementation
+
+end.

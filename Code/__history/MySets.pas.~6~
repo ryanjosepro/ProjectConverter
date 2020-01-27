@@ -1,0 +1,10 @@
+unit MySets;
+
+interface
+
+type
+  TExecutionMode = (emClone, emStatus, em);
+
+implementation
+
+end.

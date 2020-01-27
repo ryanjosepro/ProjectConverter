@@ -1,0 +1,10 @@
+unit MySets;
+
+interface
+
+type
+  TExecutionMode = ()
+
+implementation
+
+end.
