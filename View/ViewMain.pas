@@ -51,6 +51,7 @@ begin
   TxtResult.Clear;
   Txt1.Clear;
   Txt2.Clear;
+  Txt3.Clear;
 end;
 
 procedure TWindowMain.TxtChange(Sender: TObject);
