@@ -2,9 +2,10 @@ object WindowMain: TWindowMain
   Left = 0
   Top = 0
   BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
   Caption = 'Converter'
-  ClientHeight = 243
-  ClientWidth = 365
+  ClientHeight = 253
+  ClientWidth = 375
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -3853,8 +3854,8 @@ object WindowMain: TWindowMain
   OldCreateOrder = False
   Position = poMainFormCenter
   DesignSize = (
-    365
-    243)
+    375
+    253)
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
@@ -3917,7 +3918,7 @@ object WindowMain: TWindowMain
   object BoxType: TComboBox
     Left = 8
     Top = 8
-    Width = 349
+    Width = 359
     Height = 24
     Style = csDropDownList
     Anchors = [akLeft, akTop, akRight]
@@ -3934,6 +3935,7 @@ object WindowMain: TWindowMain
     OnKeyDown = KeyDown
     Items.Strings = (
       'Kg -> Un')
+    ExplicitWidth = 349
   end
   object TxtResult: TEdit
     Left = 8
