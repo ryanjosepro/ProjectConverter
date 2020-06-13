@@ -3935,7 +3935,6 @@ object WindowMain: TWindowMain
     OnKeyDown = KeyDown
     Items.Strings = (
       'Kg -> Un')
-    ExplicitWidth = 349
   end
   object TxtResult: TEdit
     Left = 8
